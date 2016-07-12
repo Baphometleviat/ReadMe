@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+/*STYLES INDEX*/
+.header-index{
+    background-image: url("../../IMAGES/grayclouds-indexheader.jpg");    ;
+    color: #fff;
+}
+
+hr.header-index{
+    color: #fff;
+    width: 50%;
+}
+
+.header-intro{
+    padding-top: 20px;
+    font-size: 40px;   
+}
+
+    
+.body-intro{
+    font-size: 20px;
+    padding-left: 200px;
+}
+
+/*STYLES INDEX*/
+.topless{
+    padding-top: 0px;
+}
+
+p.italic{
+    font-style: italic;
+}
+
