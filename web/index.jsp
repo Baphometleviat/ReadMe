@@ -29,6 +29,7 @@
                 que presentan problemas y no encuentran la manera de resolverlos o con quién platicarlos,
                 por lo que aqui encontrarán una opción para compartir sus inquietudes con personas que presentan los mismos problemas 
                 o incluso, si así lo desea, contactar con ayuda profesional.
+            </div>                        
         </div>
         <!--BODY-->
     </body>
