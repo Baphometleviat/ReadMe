@@ -9,24 +9,87 @@ body{
 
 hr.header-index{
     color: #fff;
-    width: 50%;
+    width: 50%;    
 }
 
-.header-intro{
-    padding-top: 20px;
-    font-size: 40px;   
+/*INTRO STYLES*/
+.intro-container{
+    margin-top: 0px;
 }
 
-    
-.body-intro{
-    font-size: 20px;
-    padding-left: 200px;
+.description-container{
+    margin-top: 50px;    
 }
+
+.headers{
+    margin-top: 20px;
+    font-size: 40px;    
+}
+
+.bodies{
+    font-size: 20px;    
+    float: right;
+    margin-top: 10px;
+}
+/*INTRO STYLES*/
+/*MEDIA QUERIS INTRO*/
+/*CELULAR*/
+@media (min-width: 0px) and (max-width: 500px){
+    .headers{        
+        font-size: 30px;
+        text-align: center;
+        margin-top: -30px;
+    }
+
+    .bodies{
+        font-size: 17px;
+        text-align: justify;
+    }
+}
+/*CELULAR*/
+/*TABLET*/
+@media (min-width: 500px) and (max-width: 750px){
+    .headers{        
+        font-size: 40px;
+        text-align: center;
+        margin-top: -20px;
+    }
+
+    .bodies{
+        font-size: 20px;
+        text-align: justify;
+    }
+}
+/*TABLET*/
+/*PC*/
+@media (min-width: 750px) and (max-width: 970px) {
+    .headers{
+        font-size: 40px;
+        text-align: center;
+        margin-top: -20px;
+    }
+
+    .bodies{
+        font-size: 25px;
+        text-align: justify;
+    }
+}
+/*PC*/
+/*PC GRANDOTAS*/
+@media (min-width: 970px){
+    .headers{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .bodies{
+        font-size: 20px;            
+    }
+}
+/*PC GRANDOTAS*/
+/*MEDIA QUERIS INTRO*/
 
 /*STYLES INDEX*/
-.topless{
-    padding-top: 0px;
-}
 
 p.italic{
     font-style: italic;
