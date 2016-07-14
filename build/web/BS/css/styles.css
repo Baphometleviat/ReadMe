@@ -12,6 +12,11 @@ hr.header-index{
     width: 50%;    
 }
 
+hr.divisions{
+    color: #9e9e9e;
+    width:80%;
+}
+
 /*INTRO STYLES*/
 .intro-container{
     margin-top: 0px;
@@ -19,6 +24,10 @@ hr.header-index{
 
 .description-container{
     margin-top: 50px;    
+}
+
+.accounts-container{
+    margin-top: 50px;
 }
 
 .headers{
@@ -93,5 +102,10 @@ hr.header-index{
 
 p.italic{
     font-style: italic;
+}
+
+small{
+    color: #761c19;
+    font-size: 15px;
 }
 
