@@ -43,31 +43,24 @@
                     <li>Hilo abierto</li>
                     <li>Hilo cerrado</li>
                 </ul>                
-                <b>Hilo abierto:</b> El hilo abierto es una publicación de discución libre, esto quiere decir que tanto miembros
-                como no miembros pueden leer y participar en él.<br><br>
-                <b>Hilo cerrado:</b> El hilo cerrado, a diferencia del hilo abierto sólo puede ser leído y comentado por miembros ReadMe. <br>
+                <b>Hilo abierto:</b> El hilo abierto es una publicación de discución libre, esto quiere decir que todas las personas con una
+                cuenta pueden comentar y visualizarlo.<br><br>
+                <b>Hilo cerrado:</b> El hilo cerrado, a diferencia del hilo abierto sólo puede ser leído y comentado por moderadores. <br><br>
                 <div class="alert alert-danger text-center">
                     <small>Todos los hilos estarán supervisados por un moderador que se encargará de guardar la buena convivencia.</small>
                 </div>
+                <br>
+                Para poder publicar o comentar un hilo debes crear una cuenta ReadMe, de lo contrario sólo podrás leer los hilos.
             </div>
         </div>
         <hr class="divisions">
         <div class="container accounts-container">
             <div class="col-md-2 col-sm-12 headers">
-                ¿Miembro o No miembro?
+                Boards
             </div>
             <div class="col-md-9 col-sm-12 bodies">
-                Para poder publicar un hilo, como es mencionado, no necesitas ser miembro ReadMe, podrás comentar libremente en cualquiera de los hilos abiertos,
-                en cambio, no podrás acceder a los hilos cerrados ni participar en su discución, para esto, debes crear una cuenta.<br><br>                
-                <p>Tipos de cuentas:</p>
-                <ul>
-                    <li>No miembro (NM)</li>
-                    <li>Miembro (MI)</li>
-                    <li>Moderador (MO)</li>
-                </ul>
-                <b>No miembro:</b> Un no miembro es aquella persona que sólo gusta de leer y ocasionalmente participar en los hilos, tiene la capacidad
-                de crearlos y eliminarlos pero sólo tiene acceso a hilos abiertos<br><br>
-                <b>Miembro:</b> Un miembro es aquella persona que presenta una inquietud mas fuerte que debe ser tratada con mayor cuidado
+                <p>Los boards son los espacios en los cuales podrás leer los hilos y están divididos por categorías, dependiendo del tema 
+                    de tu interés.</p>
             </div>
         </div>
         <!--BODY-->
