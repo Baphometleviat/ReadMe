@@ -5,7 +5,11 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Read Me</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/npm.js"></script>
         <link rel="stylesheet" href="BS/css/bootstrap.css" />
         <link rel="stylesheet" href="BS/css/bootstrap-theme.css" />
         <link rel="stylesheet" href="BS/css/bootstrap-theme.min.css" />
@@ -13,12 +17,15 @@
         <link rel="stylesheet" href="BS/css/styles.css" />
     </head>
     <body>
-        <!--JUMBOTRON HEADER-->
-        <div class="jumbotron text-center header-index" name="header_index">
+        <!--NAVBAR-->        
+        <!--NAVBAR-->
+        <!--JUMBOTRON HEADER-->        
+        <div class="jumbotron text-center header-index" name="header_index">            
             <h1>Bienvenido a ReadMe</h1>
-            <p class="italic">Aún queda esperanza</p>
+            <br><br>
             <hr class="header-index">
-        </div>
+            <p class="italic">Aún queda esperanza</p>                        
+        </div>        
         <!--JUMBOTRON HEADER--> 
         <!--BODY-->
         <div class="container intro-container topless">
@@ -59,8 +66,10 @@
                 Boards
             </div>
             <div class="col-md-9 col-sm-12 bodies">
-                <p>Los boards son los espacios en los cuales podrás leer los hilos y están divididos por categorías, dependiendo del tema 
-                    de tu interés.</p>
+                <p>Los boards son los espacios en los cuales podrás leer los hilos y están divididos por categorías, 
+                    dependiendo del tema  de tu interés.<br>
+                    Estos boards son Dinero, Familia, Pareja, Amistad, Laboral, Salud, Suicidio, Otros,
+                </p>
             </div>
         </div>
         <!--BODY-->

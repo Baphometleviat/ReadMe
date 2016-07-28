@@ -1,13 +1,30 @@
 body{
     margin: 0;
 }
-/*STYLES INDEX*/
-.header-index{
-    background-image: url("../../IMAGES/grayclouds-indexheader.jpg");    ;
+/*NAVBAR*/
+.navbar{
+    background-color: #000\9;
+
+}
+
+.navbar-nav li a{
     color: #fff;
 }
 
+.navbar-nav li a:hover, .navbar-nav li.active a {    
+    background-color: #cccccc;
+}
+
+/*NAVBAR*/
+/*STYLES INDEX*/
+.header-index{
+    background-image: url("../../IMAGES/grayclouds-indexheader.jpg");
+    color: #fff;
+    
+}
+
 hr.header-index{
+    margin-top: -25px;
     color: #fff;
     width: 50%;    
 }
@@ -21,6 +38,7 @@ hr.divisions{
 .intro-container{
     margin-top: 0px;
 }
+
 
 .description-container{
     margin-top: 50px;    
@@ -100,6 +118,7 @@ hr.divisions{
 
 /*STYLES INDEX*/
 
+
 p.italic{
     font-style: italic;
 }
@@ -108,4 +127,3 @@ small{
     color: #761c19;
     font-size: 15px;
 }
-
