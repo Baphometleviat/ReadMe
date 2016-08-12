@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="BS/css/bootstrap-theme.css" />
         <link rel="stylesheet" href="BS/css/bootstrap-theme.min.css" />
         <link rel="stylesheet" href="BS/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="BS/css/styles.css" />
+        <link rel="stylesheet" href="BS/css/styles_index.css" />
     </head>
     <body>
         <!--NAVBAR-->        
@@ -24,8 +24,10 @@
             <h1>Bienvenido a ReadMe</h1>
             <br><br>
             <hr class="header-index">
-            <p class="italic">Aún queda esperanza</p>                        
-        </div>        
+            <p class="italic">Aún queda esperanza</p>
+            <div class="sesion italic"><a href="inicio_sesion.jsp">Iniciar sesión</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                <a href="crear_cuenta.jsp">Crear cuenta</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;<a href="boards.jsp">Ir a los boards</a></div>
+        </div>         
         <!--JUMBOTRON HEADER--> 
         <!--BODY-->
         <div class="container intro-container topless">
