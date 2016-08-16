@@ -17,6 +17,21 @@
         <link rel="stylesheet" href="BS/css/styles_iniciosesion.css" />        
     </head>
     <body>
-        <div class="container-login"></div>
+        <div class="container-login">
+            <br>            
+            <h1>Inicio de sesión</h1>
+            <form>
+                <center>
+                    <input type="text" placeholder="Usuario">
+                    <br>
+                    <input type="password" placeholder="Contraseña">
+                    <br>
+                </center>
+                    <button type="submit">Ingresar</button>
+                    <button type="reset">Cancelar</button>
+                    <br>
+                    <br> 
+            </form>            
+        </div>
     </body>
 </html>
