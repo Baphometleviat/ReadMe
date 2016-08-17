@@ -28,6 +28,7 @@ input[type=text], input[type=password]{
     border-left: none;
     border-right: none;    
     background: none;
+    transition-duration: .6s;
 }
 
 input[type=text]:hover, input[type=password]:hover{
@@ -44,24 +45,73 @@ button{
 
 button[type=submit]{
     background-color: rgba(76, 175, 80, .7);
-    border: 1px solid rgba(76, 175, 80, .7);
+    border: 1px rgba(76, 175, 80, .7);
+    transition-duration: .6s;
 }
 
 button[type=submit]:hover{
     background-color: #4CAF50;
-    border: 1px solid #4CAF50;
+    border: 1px #4CAF50;
     width: 120px;
     transition-duration: .6s;    
 }
 
 button[type=reset]{
     background-color: rgba(102, 0, 0, .7);
-    border: 1px solid rgba(102, 0, 0, .7);        
+    border: 1px rgba(102, 0, 0, .7);
+    transition-duration: .6s;
 }
 
 button[type=reset]:hover{
     background-color: #990000;
-    border: 1px solid #990000;
+    border: 1px  #990000;
     width: 120px;
-    transition-duration: .6s;      
+    transition-duration: .6s;     
 }
+
+div.italic{
+    font-style: italic;    
+}
+
+a, a:hover, a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*RESPONSIVE*/
+/*CELULAR*/
+@media (min-width: 0px) and (max-width: 500px){
+    .container-login{
+        margin-top: 10%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+        margin-left: 0%;
+    }    
+}
+/*CELULAR*/
+/*TABLET*/
+@media (min-width: 500px) and (max-width: 750px){
+    .container-login{
+        margin-top: 10%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+}
+/*TABLET*/
+/*PC*/
+@media (min-width: 750px) and (max-width: 970px){
+    .container-login{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+/*PC*/
+/*PC GRANDOTAS*/
+@media (min-width: 970px){
+    
+}
+/*PC GRANDOTAS*/

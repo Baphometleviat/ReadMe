@@ -30,6 +30,10 @@
                     <button type="submit">Ingresar</button>
                     <button type="reset">Cancelar</button>
                     <br>
+                    <div class="italic"><a href="crear_cuenta.jsp">Crear cuenta</a>
+                        &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;<a href="olvide_mi_pass.jsp">Olvidé mi contraseña - Usuario</a>
+                        &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;<a href="boards.jsp">Ir a los boards</a>
+                    </div>
                     <br> 
             </form>            
         </div>

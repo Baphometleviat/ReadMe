@@ -136,10 +136,7 @@ small{
     font-size: 15px;
 }
 
-a{
-   color: #fff;
-}
-
-a:hover{
-    color: #fff;    
+a, a:hover, a:visited{
+    color: #fff;
+    text-decoration: none;
 }
