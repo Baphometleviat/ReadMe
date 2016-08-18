@@ -10,8 +10,8 @@ body
     color: #fff;
     margin-top: 10%;
     margin-bottom: 10%;
-    margin-right: 30%;
-    margin-left: 30%;    
+    margin-right: 25%;
+    margin-left: 25%;    
 }
 
 h1{
@@ -29,6 +29,7 @@ input[type=text], input[type=password]{
     border-right: none;    
     background: none;
     transition-duration: .6s;
+    text-align: center;
 }
 
 input[type=text]:hover, input[type=password]:hover{
@@ -87,7 +88,7 @@ a, a:hover, a:visited{
         margin-bottom: 0%;
         margin-right: 0%;
         margin-left: 0%;
-    }    
+    }
 }
 /*CELULAR*/
 /*TABLET*/
@@ -112,6 +113,6 @@ a, a:hover, a:visited{
 /*PC*/
 /*PC GRANDOTAS*/
 @media (min-width: 970px){
-    
+
 }
 /*PC GRANDOTAS*/

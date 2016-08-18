@@ -1,4 +1,3 @@
-<%@taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -17,6 +16,26 @@
         <link rel="stylesheet" href="BS/css/styles_crearcuenta.css" />
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <div class="container-crear">
+            <br>
+            <h1>Crear cuenta</h1>
+            <form>
+                <center>
+                    <input type="email" placeholder="Ingresa tu correo">
+                    <br>
+                    <input type="text" placeholder="Ingresa un usuario">
+                    <br>
+                    <input type="password" placeholder="Ingresa tu contraseña">
+                    <br>
+                    <button type="submit">Ingresar</button>
+                    <button type="reset">Cancelar</button>
+                    <br>
+                    <div class="italic"><a href="index.jsp">Ir al index</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                        <a href="inicio_sesion.jsp">Inicio de sesión</a>
+                    </div>
+                    <br>
+                </center>
+            </form>
+        </div>
     </body>
 </html>
